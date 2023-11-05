@@ -2,7 +2,10 @@
 
 /*Gradiente do fundo (utilizar sempre no elemento main)*/
 .fundo {
-    background: linear-gradient(123deg, #FFECB3 0%, #FFFFFF 67%, #f8dca6 72%), linear-gradient(180deg, #FFD480 0%, #FFD480 100%), linear-gradient(142deg, #FFEEC9 0%, #FFEEC9 33%, #FFECB3 calc(33% + 1px), #FFECB3 56%, #FFECB3 calc(56% + 1px), #FFECB3 62%, #FFECB3 calc(62% + 1px), #FFECB3 100%);
+    background: linear-gradient(123deg, #FFECB3 0%, #FFFFFF 67%, #f8dca6 72%), 
+    linear-gradient(180deg, #FFD480 0%, #FFD480 100%), linear-gradient(142deg, #FFEEC9 0%,
+     #FFEEC9 33%, #FFECB3 calc(33% + 1px), #FFECB3 56%, #FFECB3 calc(56% + 1px), #FFECB3 62%, 
+     #FFECB3 calc(62% + 1px), #FFECB3 100%);
     background-blend-mode: multiply, overlay, normal;
 }
 
